@@ -187,3 +187,58 @@ input{
 .description{
   font-weight: 400;
 }
+
+
+
+/*MEDIA QUERYS*/
+
+
+@media (max-width: 600px) {
+  .container_nw {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+  }
+
+  .newsletter {
+    flex-direction: column-reverse;
+  }
+
+  .img {
+    background-image: url(../newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height:450px;
+    width: auto;
+  }
+
+  .img-desk{
+    display: none;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .lista {
+    text-align: center;
+  }
+
+  #email {
+    width: 100%;
+  }
+
+  #btn_enviar, #resend {
+    width: 100%;
+  }
+  .attribution{
+    padding: 10px;
+    margin:40px 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 30px;
+  }
+}
